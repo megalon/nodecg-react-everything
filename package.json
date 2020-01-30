@@ -1,0 +1,28 @@
+{
+  "name": "react-from-scratch",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "7.1.0",
+    "@babel/core": "7.1.0",
+    "@babel/preset-env": "7.1.0",
+    "@babel/preset-react": "7.0.0",
+    "babel-loader": "8.0.2",
+    "css-loader": "1.0.0",
+    "react-hot-loader": "4.3.11",
+    "style-loader": "0.23.0",
+    "webpack": "4.19.1",
+    "webpack-cli": "3.1.1",
+    "webpack-dev-server": "3.1.8"
+  },
+  "dependencies": {
+    "react": "16.5.2",
+    "react-dom": "16.5.2"
+  },
+  "scripts": {
+    "dev": "yarn webpack-dev-server --mode development",
+    "dev-build": "yarn webpack --mode development",
+    "build": "yarn webpack --mode production"
+  }
+}
