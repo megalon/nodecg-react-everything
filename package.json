@@ -1,5 +1,5 @@
 {
-  "name": "react-from-scratch",
+  "name": "nodecg-react-everything",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
@@ -24,5 +24,25 @@
     "dev": "yarn webpack-dev-server --mode development",
     "dev-build": "yarn webpack --mode development",
     "build": "yarn webpack --mode production"
+  },
+  "nodecg": {
+    "compatibleRange": "^1.1.1",
+    "dashboardPanels": [
+      {
+        "name": "panel",
+        "title": "Test Dashboard",
+        "width": 2,
+        "file": "index.html",
+        "headerColor": "#525F78"
+      }
+    ],
+    "graphics": [
+      {
+        "file": "index.html",
+        "width": 1920,
+        "height": 1080,
+        "singleInstance": true
+      }
+    ]
   }
 }
